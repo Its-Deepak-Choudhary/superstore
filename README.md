@@ -135,6 +135,7 @@ for k, v in Top_states['Sales'].items():
 plt.show()
 ```
 ![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/witchstatesgethighestrevenue_graph.png)
+
 ### Top Cities by Revenue
 
 ```python
@@ -157,6 +158,7 @@ for k, v in Top_city['Sales'].items():
 
 plt.show()
 ```
+![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/circle_graph.png)
 
 ### Revenue by Category - Donut Chart
 
@@ -186,9 +188,9 @@ plt.gca().add_artist(centre_circle)
 plt.tight_layout()
 plt.show()
 ```
+![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/cities_graph.png)
 
 ---
-
 ## Conclusion
 
 This EDA provided valuable insights into the Superstore sales data, highlighting the top customers, states, cities, and product categories generating the most revenue. The visualizations help identify key areas for business focus and potential growth opportunities.
