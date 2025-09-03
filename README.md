@@ -110,6 +110,7 @@ for i, v in enumerate(Top_Customer['Sales']):
 plt.tight_layout()
 plt.show()
 ```
+![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/most_valuablecustomer_graph.png)
 
 ### Top States by Revenue
 
