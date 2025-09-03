@@ -21,7 +21,7 @@ import numpy as np
 ## Loading and Inspecting the Dataset
 
 ```python
-df = pd.read_csv('train.csv')
+df = pd.read_csv('superstore.csv')
 ```
 ![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png)
 # Basic data info
