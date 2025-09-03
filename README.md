@@ -190,10 +190,10 @@ plt.show()
 ```
 ![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/circle_graph.png)
 
+
 ---
 ## Conclusion
-
 This EDA provided valuable insights into the Superstore sales data, highlighting the top customers, states, cities, and product categories generating the most revenue. The visualizations help identify key areas for business focus and potential growth opportunities.
 
----
+
 
