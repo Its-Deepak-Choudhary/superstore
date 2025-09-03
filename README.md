@@ -190,6 +190,8 @@ plt.show()
 ```
 ![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/circle_graph.png)
 
+
+### Revenue by Region - Bar Chart
 ```python
 Top_region = df.groupby('Region')['Sales'].sum().sort_values(ascending=False)
 Top_region = Top_region.round(2).reset_index()
