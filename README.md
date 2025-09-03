@@ -23,6 +23,7 @@ import numpy as np
 ```python
 df = pd.read_csv('train.csv')
 ```
+![pd.read_csv](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png)
 # Basic data info
 ```
 print(df.shape)
