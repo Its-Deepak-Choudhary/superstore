@@ -28,24 +28,31 @@ df = pd.read_csv('train.csv')
 ```
 print(df.shape)
 ```
+![pd.read_csv](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/shape.png)
 ```
 df.info()
 ```
+![pd.read_csv](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png)
 ```
 print(df.columns)
 ```
+![pd.read_csv](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png)
 ```
 print(df.index)
 ```
+![pd.read_csv](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png)
 ```
 print(df.dtypes)
 ```
+![pd.read_csv](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png)
 ```
 print(df.head())
 ```
+![pd.read_csv](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png)
 ```
 print(df.describe())
 ```
+![]([https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Load_csv.png](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/describe.png))
 
 ---
 
