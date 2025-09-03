@@ -22,14 +22,27 @@ import numpy as np
 
 ```python
 df = pd.read_csv('train.csv')
-
+```
 # Basic data info
+```
 print(df.shape)
+```
+```
 df.info()
+```
+```
 print(df.columns)
+```
+```
 print(df.index)
+```
+```
 print(df.dtypes)
+```
+```
 print(df.head())
+```
+```
 print(df.describe())
 ```
 
