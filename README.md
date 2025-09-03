@@ -158,7 +158,7 @@ for k, v in Top_city['Sales'].items():
 
 plt.show()
 ```
-![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/circle_graph.png)
+![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/cities_graph.png) 
 
 ### Revenue by Category - Donut Chart
 
@@ -188,7 +188,7 @@ plt.gca().add_artist(centre_circle)
 plt.tight_layout()
 plt.show()
 ```
-![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/cities_graph.png)
+![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/circle_graph.png)
 
 ---
 ## Conclusion
