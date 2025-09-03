@@ -134,7 +134,7 @@ for k, v in Top_states['Sales'].items():
 
 plt.show()
 ```
-
+![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/witchstatesgethighestrevenue_graph.png)
 ### Top Cities by Revenue
 
 ```python
