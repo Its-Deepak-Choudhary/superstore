@@ -190,8 +190,22 @@ plt.show()
 ```
 ![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/circle_graph.png)
 
+```python
+Top_region = df.groupby('Region')['Sales'].sum().sort_values(ascending=False)
+Top_region = Top_region.round(2).reset_index()
+plt.figure(figsize=(5,5))
+plt.title('Region wise Revenue Generation', fontsize=12, color="#0c0805", fontweight='bold')
+colors = ["#5f7706"]
+plt.bar(Top_region['Region'], Top_region['Sales'], color=colors,edgecolor='black',linewidth=1)
+plt.xlabel('Regions', fontsize=12, fontweight='bold', color='#0c0805')
+plt.ylabel('Revenue', fontsize=12, fontweight='bold', color='#0c0805')
+plt.xticks(fontsize=10, color= "#070707", fontweight='bold')
+plt.yticks(fontsize=10, color="#0c0805")
+for k,v in Top_region['Sales'].items():
+    plt.text(k,v-200000,'₹'+ str(v), fontsize=10, color='white', horizontalalignment='center', rotation=90,fontweight='bold');
+```
+![](https://github.com/Its-Deepak-Choudhary/superstore/blob/master/images/Region_graph.png)
 
----
 ## Conclusion
 This EDA provided valuable insights into the Superstore sales data, highlighting the top customers, states, cities, and product categories generating the most revenue. The visualizations help identify key areas for business focus and potential growth opportunities.
 
